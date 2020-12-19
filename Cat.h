@@ -174,31 +174,6 @@ namespace MyNamespace
 					return;
 				}
 			}
-			/*int c = 0;
-			MyNamespace::cat T1;
-			std::vector<MyNamespace::cat>::iterator It,beg;
-			beg = begin;
-			while (begin != end)
-			{
-				begin++;
-				T1 = *begin;
-				if (begin == end) break;
-				It = beg;
-				c = 0;
-				while (It!=end)
-				{
-					if (T1 == *It)
-						c++;
-					if (T1 == *It && c == 2)
-					{
-						std::vector<MyNamespace::cat>::iterator I;
-						I = It;
-						V.erase(I);
-						It = I++;
-					}	
-					It++;
-				}
-			}*/
 		}
 	};
 }
